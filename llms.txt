@@ -1,0 +1,45 @@
+# KevDevs
+
+> KevDevs es el estudio de Kevin Andrés Gutiérrez, desarrollador full-stack en Medellín, Colombia, con más de 5 años de experiencia. Construye asistentes con IA, automatizaciones con n8n, páginas web a la medida y apps móviles con Flutter para pymes, startups y emprendedores. Atiende en español e inglés, en Colombia y Latinoamérica.
+
+Una sola persona responsable del proyecto de principio a fin. Al terminar, el cliente recibe el código, los accesos y la documentación de su proyecto, y tiene soporte después del lanzamiento.
+
+## Servicios
+
+- Asistentes con IA: asistentes en WhatsApp y en la web que responden a clientes y agendan citas las 24 horas.
+- Integraciones con IA y Claude: lectura de documentos, resúmenes de información y redacción de contenido.
+- Automatización con n8n: conecta las herramientas que el negocio ya usa para que las tareas repetitivas se hagan solas.
+- Desarrollo web a la medida: páginas y plataformas rápidas, fáciles de usar y orientadas a convertir visitantes en clientes.
+- Apps móviles con Flutter: aplicaciones para iPhone y Android, desde la idea hasta su publicación en las tiendas.
+- Sistemas y bases de datos: backend, almacenamiento seguro de información e integración entre sistemas.
+- Mantenimiento y soporte: actualizaciones, mejoras y monitoreo.
+
+## Proceso
+
+1. Diagnóstico: entender el negocio y definir el problema a resolver.
+2. Propuesta: alcance, tiempos y entregables claros antes de escribir código.
+3. Construcción: avances frecuentes que el cliente puede ver y probar.
+4. Lanzamiento: publicación, entrega y soporte.
+
+## Proyectos
+
+- TocToc!: app móvil (Flutter) que digitaliza los procesos de las unidades residenciales cerradas. En desarrollo.
+- Apnea, respiración consciente: app móvil (Flutter) de entrenamientos de respiración para apnea y meditación. En desarrollo.
+- [Credique](https://credique.com): sitio web en producción.
+
+## Tecnologías
+
+Claude, n8n, React, Angular, TypeScript, JavaScript, Redux, Flutter, Node.js, .NET Core, GraphQL, MongoDB, SQL, AWS, Git.
+
+## Experiencia
+
+- Sigma Studios (2022 – actual): desarrollo full-stack con AWS, .NET Core, Angular, Node.js, TypeScript y MongoDB.
+- Indra Colombia (2022 – 2023): desarrollo full-stack con NoSQL, Polymer, LitElement y Cells (framework de BBVA).
+- Hounsou International (2020 – 2022): desarrollo full-stack con React, Redux, TypeScript, Node.js, MongoDB y GraphQL.
+
+## Contacto
+
+- Sitio web: https://kevgvdevs.com/
+- WhatsApp: https://wa.me/573057414408
+- Correo: contacto@kevgvdevs.com
+- LinkedIn: https://www.linkedin.com/in/kevin-andres-gutierrez-vergara-16bb47234/

@@ -1,0 +1,6 @@
+Coloca aquí las capturas de las apps con estos nombres:
+
+toctoc-1.jpg ... toctoc-5.jpg
+apnea-1.jpg ... apnea-5.jpg
+
+Si una imagen no existe, el carrusel muestra "Próximamente".

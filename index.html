@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>KevDevs | Desarrollador web, apps y automatización con IA en Colombia</title>
+<meta name="description" content="Kevin Gutiérrez, desarrollador full-stack en Medellín, Colombia. Creo asistentes con IA para WhatsApp, automatizaciones con n8n, páginas web y apps móviles con Flutter para pymes y emprendedores.">
+<meta name="author" content="Kevin Andrés Gutiérrez">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<link rel="canonical" href="https://kevgvdevs.com/">
+<meta name="theme-color" content="#0e2638">
+<meta name="geo.region" content="CO-ANT">
+<meta name="geo.placename" content="Medellín, Antioquia">
+
+<!-- Open Graph (WhatsApp, Facebook, LinkedIn) -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="KevDevs">
+<meta property="og:locale" content="es_CO">
+<meta property="og:locale:alternate" content="en_US">
+<meta property="og:url" content="https://kevgvdevs.com/">
+<meta property="og:title" content="KevDevs | Webs, apps y automatización con IA">
+<meta property="og:description" content="Tienes la idea, te falta quien la construya. Asistentes con IA, automatización con n8n, páginas web y apps con Flutter.">
+<meta property="og:image" content="https://kevgvdevs.com/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="KevDevs — Kevin Gutiérrez, desarrollador full-stack">
+
+<!-- Twitter / X -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="KevDevs | Webs, apps y automatización con IA">
+<meta name="twitter:description" content="Asistentes con IA, automatización con n8n, páginas web y apps con Flutter para pymes y emprendedores.">
+<meta name="twitter:image" content="https://kevgvdevs.com/og-image.png">
+
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://kevgvdevs.com/#kevin",
+      "name": "Kevin Andrés Gutiérrez",
+      "jobTitle": "Desarrollador full-stack",
+      "url": "https://kevgvdevs.com/",
+      "email": "mailto:contacto@kevgvdevs.com",
+      "address": {"@type": "PostalAddress", "addressLocality": "Medellín", "addressRegion": "Antioquia", "addressCountry": "CO"},
+      "sameAs": ["https://www.linkedin.com/in/kevin-andres-gutierrez-vergara-16bb47234/"],
+      "knowsAbout": ["Inteligencia artificial", "Claude", "n8n", "Automatización", "React", "Angular", "Flutter", "Node.js", ".NET Core", "TypeScript", "MongoDB", "AWS"]
+    },
+    {
+      "@type": "ProfessionalService",
+      "@id": "https://kevgvdevs.com/#service",
+      "name": "KevDevs",
+      "url": "https://kevgvdevs.com/",
+      "image": "https://kevgvdevs.com/og-image.png",
+      "description": "Asistentes con IA, automatización con n8n, desarrollo web a la medida y apps móviles con Flutter para pymes, startups y emprendedores.",
+      "founder": {"@id": "https://kevgvdevs.com/#kevin"},
+      "telephone": "+57 305 741 4408",
+      "email": "contacto@kevgvdevs.com",
+      "address": {"@type": "PostalAddress", "addressLocality": "Medellín", "addressRegion": "Antioquia", "addressCountry": "CO"},
+      "areaServed": [{"@type": "Country", "name": "Colombia"}, "Latinoamérica"],
+      "availableLanguage": ["es", "en"],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Servicios",
+        "itemListElement": [
+          {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Asistentes con IA para WhatsApp y web"}},
+          {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Integraciones con IA y Claude"}},
+          {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Automatización con n8n"}},
+          {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Desarrollo web a la medida"}},
+          {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Apps móviles con Flutter"}},
+          {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Mantenimiento y soporte"}}
+        ]
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://kevgvdevs.com/#website",
+      "url": "https://kevgvdevs.com/",
+      "name": "KevDevs",
+      "inLanguage": "es",
+      "publisher": {"@id": "https://kevgvdevs.com/#kevin"}
+    }
+  ]
+}
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;600;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="header">
+  <div class="container header-inner">
+    <a href="#top" class="brand">Kev<span class="accent">Devs</span><span class="dot">.</span></a>
+    <nav class="nav">
+      <a href="#servicios" data-i18n="nav.services">Servicios</a>
+      <a href="#proyectos" data-i18n="nav.work">Proyectos</a>
+      <a href="#stack" data-i18n="nav.stack">Stack</a>
+      <a href="#trayectoria" data-i18n="nav.path">Trayectoria</a>
+    </nav>
+    <div class="lang" role="group" aria-label="Idioma">
+      <button type="button" data-lang="es" class="is-active">ES</button>
+      <button type="button" data-lang="en">EN</button>
+    </div>
+    <a class="btn btn-primary js-wa" href="https://wa.me/573057414408?text=Hola%20Kevin%2C%20vi%20tu%20portafolio%20KevDevs%20y%20quiero%20hablar%20de%20un%20proyecto." target="_blank" rel="noopener">WhatsApp <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7"/><path d="M7 7h10v10"/></svg></a>
+  </div>
+</header>
+
+<main>
+<section id="top" class="hero">
+  <canvas class="rain" data-rain="hero" aria-hidden="true"></canvas>
+  <div class="hero-scrim"></div>
+  <div class="container hero-inner">
+    <div class="hero-top">
+      <span class="badge"><i class="pulse"></i><span data-i18n="hero.badge">Disponible para nuevos proyectos</span></span>
+      <span class="hero-kicker" data-i18n="hero.kicker">Inteligencia artificial · Automatización · Web · Apps</span>
+    </div>
+    <h1><span data-i18n="hero.h1a">Tienes la idea, te falta quien la construya.</span> <span class="h1b" data-i18n="hero.h1b">Tú pones la visión. Yo pongo el código para hacerla realidad.</span></h1>
+    <div class="terminal"><span class="t-prompt"><span class="t-path">~/kevdevs </span>$</span> <span class="t-label" data-i18n="hero.typerLabel">construyo</span> <span class="t-word" id="typer"></span><span class="t-cursor"></span></div>
+    <div class="hero-grid">
+      <p class="hero-lead" data-i18n="hero.lead">Automatizar un proceso, crear un asistente con IA o darle forma a una idea no tiene por qué ser complicado. Escucho lo que necesitas, te acompaño en cada paso y construyo la herramienta que tu negocio necesita para avanzar. Soy Kevin Gutiérrez, desarrollador full-stack con más de 5 años de experiencia, y estoy aquí para materializar tus ideas.</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary btn-lg btn-wide js-wa" href="https://wa.me/573057414408?text=Hola%20Kevin%2C%20vi%20tu%20portafolio%20KevDevs%20y%20quiero%20hablar%20de%20un%20proyecto." target="_blank" rel="noopener"><span data-i18n="cta.primary">Escríbeme por WhatsApp</span> <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg></a>
+        <a class="btn btn-lg btn-outline-light" href="#servicios" data-i18n="cta.secondary">Ver servicios</a>
+      </div>
+    </div>
+    <div class="pillars">
+      <div class="pillar"><span class="pillar-icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 8V4H8"/><rect width="16" height="12" x="4" y="8" rx="2"/><path d="M2 14h2"/><path d="M20 14h2"/><path d="M15 13v2"/><path d="M9 13v2"/></svg></span><span class="pillar-label" data-i18n="pillar.0">Asistentes con IA</span></div>
+      <div class="pillar"><span class="pillar-icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect width="8" height="8" x="3" y="3" rx="2"/><path d="M7 11v4a2 2 0 0 0 2 2h4"/><rect width="8" height="8" x="13" y="13" rx="2"/></svg></span><span class="pillar-label" data-i18n="pillar.1">Automatización</span></div>
+      <div class="pillar"><span class="pillar-icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect width="20" height="14" x="2" y="3" rx="2"/><line x1="8" x2="16" y1="21" y2="21"/><line x1="12" x2="12" y1="17" y2="21"/></svg></span><span class="pillar-label" data-i18n="pillar.2">Páginas web</span></div>
+      <div class="pillar"><span class="pillar-icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect width="14" height="20" x="5" y="2" rx="2" ry="2"/><path d="M12 18h.01"/></svg></span><span class="pillar-label" data-i18n="pillar.3">Apps para celular</span></div>
+    </div>
+  </div>
+</section>
+
+<div class="marquee" aria-hidden="true"><div class="marquee-track"><span class="marquee-item">Claude<i></i></span><span class="marquee-item">n8n<i></i></span><span class="marquee-item">React<i></i></span><span class="marquee-item">Flutter<i></i></span><span class="marquee-item">Node.js<i></i></span><span class="marquee-item">Angular<i></i></span><span class="marquee-item">TypeScript<i></i></span><span class="marquee-item">MongoDB<i></i></span><span class="marquee-item">SQL<i></i></span><span class="marquee-item">.NET Core<i></i></span><span class="marquee-item">GraphQL<i></i></span><span class="marquee-item">AWS<i></i></span><span class="marquee-item">Claude<i></i></span><span class="marquee-item">n8n<i></i></span><span class="marquee-item">React<i></i></span><span class="marquee-item">Flutter<i></i></span><span class="marquee-item">Node.js<i></i></span><span class="marquee-item">Angular<i></i></span><span class="marquee-item">TypeScript<i></i></span><span class="marquee-item">MongoDB<i></i></span><span class="marquee-item">SQL<i></i></span><span class="marquee-item">.NET Core<i></i></span><span class="marquee-item">GraphQL<i></i></span><span class="marquee-item">AWS<i></i></span></div></div>
+
+<section class="container trust">
+  <div class="trust-card reveal"><span class="trust-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"/><path d="m9 12 2 2 4-4"/></svg></span><div><div class="trust-title" data-i18n="trust.0.title">Todo es tuyo</div><div class="trust-body" data-i18n="trust.0.body">Al terminar recibes el código, los accesos y la documentación de tu proyecto.</div></div></div>
+  <div class="trust-card reveal"><span class="trust-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"/><path d="m9 12 2 2 4-4"/></svg></span><div><div class="trust-title" data-i18n="trust.1.title">Comunicación clara</div><div class="trust-body" data-i18n="trust.1.body">Te explico cada paso sin tecnicismos y ves avances durante el proceso.</div></div></div>
+  <div class="trust-card reveal"><span class="trust-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"/><path d="m9 12 2 2 4-4"/></svg></span><div><div class="trust-title" data-i18n="trust.2.title">Acompañamiento</div><div class="trust-body" data-i18n="trust.2.body">Sigo disponible después del lanzamiento para ajustes y soporte.</div></div></div>
+</section>
+
+<section id="servicios" class="container section">
+  <div class="section-head split">
+    <div><div class="kicker" data-i18n="nav.services">Servicios</div><h2 class="reveal" data-i18n="services.title">Lo que construyo para tu negocio.</h2></div>
+    <p class="section-lead" data-i18n="services.lead">De asistentes con IA a páginas web y apps. Una sola persona responsable del proyecto, de principio a fin.</p>
+  </div>
+  <div class="services">
+    <div class="service reveal"><div class="service-num">01</div><h3 data-i18n="svc.0.title">Asistentes con IA</h3><p data-i18n="svc.0.body">Asistentes en WhatsApp y en tu web que responden a tus clientes y agendan citas, las 24 horas.</p></div>
+    <div class="service reveal"><div class="service-num">02</div><h3 data-i18n="svc.1.title">Integraciones con IA y Claude</h3><p data-i18n="svc.1.body">Uso inteligencia artificial para leer documentos, resumir información y redactar contenido por ti.</p></div>
+    <div class="service reveal"><div class="service-num">03</div><h3 data-i18n="svc.2.title">Automatización con n8n</h3><p data-i18n="svc.2.body">Conecto las herramientas que ya usas para que las tareas repetitivas se hagan solas.</p></div>
+    <div class="service reveal"><div class="service-num">04</div><h3 data-i18n="svc.3.title">Desarrollo web a la medida</h3><p data-i18n="svc.3.body">Páginas y plataformas rápidas, fáciles de usar y pensadas para que tus visitantes se conviertan en clientes.</p></div>
+    <div class="service reveal"><div class="service-num">05</div><h3 data-i18n="svc.4.title">Apps móviles con Flutter</h3><p data-i18n="svc.4.body">Tu aplicación para iPhone y Android, desde la idea hasta publicarla en las tiendas.</p></div>
+    <div class="service reveal"><div class="service-num">06</div><h3 data-i18n="svc.5.title">Sistemas y bases de datos</h3><p data-i18n="svc.5.body">El motor que hace funcionar tu web o app: guarda tu información de forma segura y conecta tus sistemas.</p></div>
+    <div class="service reveal"><div class="service-num">07</div><h3 data-i18n="svc.6.title">Mantenimiento y soporte</h3><p data-i18n="svc.6.body">Actualizaciones, mejoras y monitoreo para que tu producto siga funcionando sin sorpresas.</p></div>
+    <a class="service service-cta reveal js-wa" href="https://wa.me/573057414408?text=Hola%20Kevin%2C%20vi%20tu%20portafolio%20KevDevs%20y%20quiero%20hablar%20de%20un%20proyecto." target="_blank" rel="noopener"><svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7"/><path d="M7 7h10v10"/></svg><h3 data-i18n="svc.other.title">¿Tienes otra idea?</h3><p data-i18n="svc.other.body">Cuéntamela por WhatsApp y vemos cómo hacerla realidad.</p></a>
+  </div>
+</section>
+
+<section class="container section">
+  <div class="kicker" data-i18n="process.kicker">Proceso</div>
+  <h2 class="reveal" data-i18n="process.title">Cuatro pasos, cero rodeos.</h2>
+  <div class="steps">
+    <div class="step"><div class="step-n"><i></i><span data-i18n="step.0.n">PASO 01</span></div><h3 data-i18n="step.0.title">Diagnóstico</h3><p data-i18n="step.0.body">Entiendo tu negocio y defino qué problema vamos a resolver.</p></div>
+    <div class="step"><div class="step-n"><i></i><span data-i18n="step.1.n">PASO 02</span></div><h3 data-i18n="step.1.title">Propuesta</h3><p data-i18n="step.1.body">Alcance, tiempos y entregables claros antes de escribir código.</p></div>
+    <div class="step"><div class="step-n"><i></i><span data-i18n="step.2.n">PASO 03</span></div><h3 data-i18n="step.2.title">Construcción</h3><p data-i18n="step.2.body">Avances frecuentes que puedes ver y probar.</p></div>
+    <div class="step"><div class="step-n"><i></i><span data-i18n="step.3.n">PASO 04</span></div><h3 data-i18n="step.3.title">Lanzamiento</h3><p data-i18n="step.3.body">Publicación, entrega y soporte después de salir al aire.</p></div>
+  </div>
+</section>
+
+<section id="proyectos" class="container section">
+  <div class="kicker" data-i18n="nav.work">Proyectos</div>
+  <h2 class="reveal" data-i18n="work.title">En producción y en camino.</h2>
+  <div class="projects">
+      <article class="project">
+        <div class="project-info">
+          <div class="tags"><span class="tag tag-outline" data-i18n="p.app">App móvil · Flutter</span><span class="tag tag-accent" data-i18n="p.dev">En desarrollo</span></div>
+          <h3 data-i18n="p.toctoc.name">TocToc!</h3>
+          <p data-i18n="p.toctoc.body">Digitaliza los procesos de las unidades residenciales cerradas en una sola app.</p>
+          <div class="chips"><span class="chip">Flutter</span><span class="chip">Dart</span></div>
+          
+        </div>
+        <div class="carousel reveal" data-carousel>
+          <div class="carousel-track">
+            <div class="slide"><span class="slide-empty" data-i18n="p.soon">Próximamente</span><img src="img/toctoc-1.jpg" alt="Pantalla 1 de la app TocToc! para unidades residenciales" loading="lazy"></div>
+            <div class="slide"><span class="slide-empty" data-i18n="p.soon">Próximamente</span><img src="img/toctoc-2.jpg" alt="Pantalla 2 de la app TocToc! para unidades residenciales" loading="lazy"></div>
+            <div class="slide"><span class="slide-empty" data-i18n="p.soon">Próximamente</span><img src="img/toctoc-3.jpg" alt="Pantalla 3 de la app TocToc! para unidades residenciales" loading="lazy"></div>
+            <div class="slide"><span class="slide-empty" data-i18n="p.soon">Próximamente</span><img src="img/toctoc-4.jpg" alt="Pantalla 4 de la app TocToc! para unidades residenciales" loading="lazy"></div>
+            <div class="slide"><span class="slide-empty" data-i18n="p.soon">Próximamente</span><img src="img/toctoc-5.jpg" alt="Pantalla 5 de la app TocToc! para unidades residenciales" loading="lazy"></div>
+          </div>
+          <button class="car-btn car-prev" type="button" data-i18n-aria="a11y.prev" aria-label="Anterior"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m15 18-6-6 6-6"/></svg></button>
+          <button class="car-btn car-next" type="button" data-i18n-aria="a11y.next" aria-label="Siguiente"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg></button>
+          <div class="car-dots"><button type="button" aria-label="1"></button><button type="button" aria-label="2"></button><button type="button" aria-label="3"></button><button type="button" aria-label="4"></button><button type="button" aria-label="5"></button></div>
+        </div>
+      </article>
+      <article class="project">
+        <div class="project-info">
+          <div class="tags"><span class="tag tag-outline" data-i18n="p.app">App móvil · Flutter</span><span class="tag tag-accent" data-i18n="p.dev">En desarrollo</span></div>
+          <h3 data-i18n="p.apnea.name">Apnea: respiración consciente</h3>
+          <p data-i18n="p.apnea.body">Entrenamientos de respiración para mejorar la apnea, la meditación y la respiración consciente.</p>
+          <div class="chips"><span class="chip">Flutter</span><span class="chip">Dart</span></div>
+          
+        </div>
+        <div class="carousel reveal" data-carousel>
+          <div class="carousel-track">
+            <div class="slide"><span class="slide-empty" data-i18n="p.soon">Próximamente</span><img src="img/apnea-1.jpg" alt="Pantalla 1 de la app Apnea: respiración consciente" loading="lazy"></div>
+            <div class="slide"><span class="slide-empty" data-i18n="p.soon">Próximamente</span><img src="img/apnea-2.jpg" alt="Pantalla 2 de la app Apnea: respiración consciente" loading="lazy"></div>
+            <div class="slide"><span class="slide-empty" data-i18n="p.soon">Próximamente</span><img src="img/apnea-3.jpg" alt="Pantalla 3 de la app Apnea: respiración consciente" loading="lazy"></div>
+            <div class="slide"><span class="slide-empty" data-i18n="p.soon">Próximamente</span><img src="img/apnea-4.jpg" alt="Pantalla 4 de la app Apnea: respiración consciente" loading="lazy"></div>
+            <div class="slide"><span class="slide-empty" data-i18n="p.soon">Próximamente</span><img src="img/apnea-5.jpg" alt="Pantalla 5 de la app Apnea: respiración consciente" loading="lazy"></div>
+          </div>
+          <button class="car-btn car-prev" type="button" data-i18n-aria="a11y.prev" aria-label="Anterior"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m15 18-6-6 6-6"/></svg></button>
+          <button class="car-btn car-next" type="button" data-i18n-aria="a11y.next" aria-label="Siguiente"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg></button>
+          <div class="car-dots"><button type="button" aria-label="1"></button><button type="button" aria-label="2"></button><button type="button" aria-label="3"></button><button type="button" aria-label="4"></button><button type="button" aria-label="5"></button></div>
+        </div>
+      </article>
+      <article class="project">
+        <div class="project-info">
+          <div class="tags"><span class="tag tag-outline" data-i18n="p.web">Sitio web</span><span class="tag tag-neutral" data-i18n="p.live">En producción</span></div>
+          <h3 data-i18n="p.credique.name">Credique</h3>
+          <p data-i18n="p.credique.body">Sitio web publicado y en funcionamiento.</p>
+          <div class="chips"><span class="chip">Web</span></div>
+          <a class="btn btn-ghost" href="https://credique.com" target="_blank" rel="noopener"><span data-i18n="p.visit">Visitar credique.com</span> <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7"/><path d="M7 7h10v10"/></svg></a>
+        </div>
+        <div class="browser reveal">
+          <div class="browser-bar"><i></i><i></i><i></i><span>credique.com</span></div>
+          <div class="browser-view"><iframe src="https://credique.com" title="credique.com" loading="lazy"></iframe></div>
+        </div>
+      </article>
+  </div>
+</section>
+
+<section id="stack" class="container section">
+  <div class="kicker" data-i18n="nav.stack">Stack</div>
+  <h2 class="reveal" data-i18n="stack.title">Herramientas que domino.</h2>
+  <div class="stack">
+    <div class="stack-card reveal"><h3 data-i18n="stack.0.g">IA y automatización</h3><div class="stack-items" data-i18n="stack.0.i">Claude · n8n · Asistentes con IA</div></div>
+    <div class="stack-card reveal"><h3 data-i18n="stack.1.g">Frontend</h3><div class="stack-items" data-i18n="stack.1.i">React · Angular · TypeScript · JavaScript · Redux</div></div>
+    <div class="stack-card reveal"><h3 data-i18n="stack.2.g">Móvil</h3><div class="stack-items" data-i18n="stack.2.i">Flutter · iOS · Android</div></div>
+    <div class="stack-card reveal"><h3 data-i18n="stack.3.g">Backend</h3><div class="stack-items" data-i18n="stack.3.i">Node.js · .NET Core · GraphQL</div></div>
+    <div class="stack-card reveal"><h3 data-i18n="stack.4.g">Datos</h3><div class="stack-items" data-i18n="stack.4.i">MongoDB · SQL</div></div>
+    <div class="stack-card reveal"><h3 data-i18n="stack.5.g">Nube y herramientas</h3><div class="stack-items" data-i18n="stack.5.i">AWS · Git</div></div>
+  </div>
+</section>
+
+<section id="trayectoria" class="container section section-last">
+  <div class="kicker" data-i18n="nav.path">Trayectoria</div>
+  <h2 class="reveal" data-i18n="path.title">Experiencia real en equipos reales.</h2>
+  <div class="jobs">
+    <div class="job"><div class="job-when" data-i18n="job.0.when">2022 — Actual</div><div><div class="job-org" data-i18n="job.0.org">Sigma Studios</div><div class="job-role" data-i18n="job.0.role">Desarrollo full-stack</div></div><p data-i18n="job.0.body">Proyectos con AWS, .NET Core, Angular, Node.js, TypeScript y MongoDB, en equipos multidisciplinarios y con plazos de entrega.</p></div>
+    <div class="job"><div class="job-when" data-i18n="job.1.when">2022 — 2023</div><div><div class="job-org" data-i18n="job.1.org">Indra Colombia</div><div class="job-role" data-i18n="job.1.role">Desarrollo full-stack</div></div><p data-i18n="job.1.body">Aplicaciones con bases de datos NoSQL, Polymer, LitElement y Cells, el framework interno de BBVA.</p></div>
+    <div class="job"><div class="job-when" data-i18n="job.2.when">2020 — 2022</div><div><div class="job-org" data-i18n="job.2.org">Hounsou International</div><div class="job-role" data-i18n="job.2.role">Desarrollo full-stack</div></div><p data-i18n="job.2.body">Frontend y backend con React, Redux, TypeScript, Node.js, MongoDB y GraphQL.</p></div>
+  </div>
+</section>
+</main>
+
+<footer id="contacto" class="contact">
+  <canvas class="rain" data-rain="contact" aria-hidden="true"></canvas>
+  <div class="contact-scrim"></div>
+  <div class="container contact-inner">
+    <div class="kicker kicker-light" data-i18n="contact.kicker">Contacto</div>
+    <h2 class="contact-title" data-i18n="contact.title">Hablemos de tu proyecto.</h2>
+    <div class="contact-grid">
+      <p data-i18n="contact.lead">Cuéntame qué quieres construir o qué tarea te quita tiempo. Te respondo con una propuesta clara.</p>
+      <a class="contact-cta js-wa" href="https://wa.me/573057414408?text=Hola%20Kevin%2C%20vi%20tu%20portafolio%20KevDevs%20y%20quiero%20hablar%20de%20un%20proyecto." target="_blank" rel="noopener"><span data-i18n="cta.primary">Escríbeme por WhatsApp</span> <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg></a>
+    </div>
+    <div class="footer-row">
+      <span>KevDevs — Kevin Andrés Gutiérrez</span>
+      <span>Medellín, Antioquia · Colombia</span>
+      <a href="mailto:contacto@kevgvdevs.com">contacto@kevgvdevs.com</a>
+      <a href="https://www.linkedin.com/in/kevin-andres-gutierrez-vergara-16bb47234/" target="_blank" rel="noopener">LinkedIn</a>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js" defer></script>
+</body>
+</html>
